@@ -2,7 +2,7 @@ import "fontsource-inter/400-normal.css";
 import "fontsource-libre-baskerville/400-italic.css";
 
 import React from "react";
-import { default as Layout } from "./src/components/layout/layout";
+import Layout from "./src/components/layout/layout";
 
 export function wrapPageElement({ element, props }) {
   return (
