@@ -1,0 +1,5 @@
+.body {
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 1rem;
+  font-size: clamp(16px, calc(1rem + ((1vw - 3.75px) * 0.7512)), 32px);
+}

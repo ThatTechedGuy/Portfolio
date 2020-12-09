@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.06rem;
+  text-rendering: optimizeLegibility;
+}
+
+.serif {
+  font-family: "Libre Baskerville";
+  letter-spacing: -0.035rem;
+  font-style: italic;
+  text-transform: none;
+}
+
+html,
+body {
+  font-size: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  perspective: 1000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
