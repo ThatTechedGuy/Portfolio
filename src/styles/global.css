@@ -7,6 +7,13 @@
   text-rendering: optimizeLegibility;
 }
 
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+}
+
+
 .serif {
   font-family: "Libre Baskerville";
   letter-spacing: -0.05em;
