@@ -1,6 +1,3 @@
-import "fontsource-inter";
-import "fontsource-libre-baskerville";
-
 import "../../styles/global.css";
 
 import React, { memo, useCallback, useEffect, useState } from "react";
