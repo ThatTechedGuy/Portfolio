@@ -3,7 +3,8 @@
 
   right: 0;
 
-  height: 100%;
+  height: calc(100vh - calc(100vh - 100%));
+
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-right: 20px;
