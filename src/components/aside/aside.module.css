@@ -1,9 +1,10 @@
 .aside {
   position: fixed;
-
   right: 0;
 
-  height: calc(100vh - calc(100vh - 100%));
+  min-height: 90vh;
+  margin: auto;
+  max-height: 100vh;
 
   padding-top: 2rem;
   padding-bottom: 2rem;

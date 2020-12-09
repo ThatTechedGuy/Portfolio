@@ -31,9 +31,9 @@ const Layout = ({ children }) => {
   const start = useCallback(async () => {
     let progress = 0;
     const intervalId = setInterval(() => {
-      progress += 1;
+      progress += 5;
       updateElement(progress);
-    }, 20);
+    }, 100);
 
     return intervalId;
 

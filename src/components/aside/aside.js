@@ -22,9 +22,9 @@ const Aside = () => {
       </section>
       <section className={styles.column}>
         <FaLinkedinIn className={styles.img} />
-        <FaGithubAlt  className={styles.img} />
-        <FaEnvelope   className={styles.img} />
-        <FaTwitter    className={styles.img} />
+        <FaGithubAlt className={styles.img} />
+        <FaEnvelope className={styles.img} />
+        <FaTwitter className={styles.img} />
       </section>
     </aside>
   );
