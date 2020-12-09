@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  letter-spacing: -0.06rem;
+  letter-spacing: -0.06em;
   text-rendering: optimizeLegibility;
 }
 
 .serif {
   font-family: "Libre Baskerville";
-  letter-spacing: -0.035rem;
+  letter-spacing: -0.05em;
   font-style: italic;
   text-transform: none;
 }

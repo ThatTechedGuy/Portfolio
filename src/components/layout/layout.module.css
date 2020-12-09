@@ -1,5 +1,15 @@
 .container {
   height: 100%;
+  transition: all 2s ease-in-out;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.container.hide {
+  opacity: 0;
+  pointer-events: none;
+  transition: all 2s ease-in-out;
+  transform: translateX(-3rem);
 }
 
 .content {
@@ -20,4 +30,28 @@
     padding-left: 180px;
     padding-bottom: 48px;
   }
+}
+
+.loader {
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  font-size: 3rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader-name {
+  font-size: clamp(14px, calc(0.875rem + ((1vw - 3.75px) * 0.3756)), 18px);
+  text-transform: capitalize;
+}
+
+#timer {
+  font-size: 5rem;
 }

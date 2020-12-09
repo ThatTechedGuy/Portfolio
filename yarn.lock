@@ -4912,15 +4912,15 @@ follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
-fontsource-inter@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/fontsource-inter/-/fontsource-inter-3.0.5.tgz#4d645514f61921f83034ff244985374413bd019d"
-  integrity sha512-7AGbrHVjL2IcIz/Lv64IR5g0W+JuGQT/bFFF5nDD1zNOT5Ke8IMIMc+tE4rb5fCVNG2AGt0gtXH3kGLUURKY8w==
+fontsource-inter@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/fontsource-inter/-/fontsource-inter-3.1.5.tgz#9262b2e2a3cd6bc0359d70ec3701d9c15c24dfdf"
+  integrity sha512-+btZpKqo67u9mXQFwifD34YRRY3aC+KyVIX10TigTPvrzhNnm3Ta+pC+uxbHZcn32EXBoACvBYanq2EJ/GPvSw==
 
-fontsource-libre-baskerville@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fontsource-libre-baskerville/-/fontsource-libre-baskerville-3.0.9.tgz#74211845f9a085f921c7c25d785389bc8e927b9b"
-  integrity sha512-mIbhAuHh1w6cY0QbbEXZDgQzXMYk/Vl8VUrpT5Fe3Ny7ehb6Wd53mq/zdWeu9HyfQGtu4A9gZuHaN1coT8QrJw==
+fontsource-libre-baskerville@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/fontsource-libre-baskerville/-/fontsource-libre-baskerville-3.1.5.tgz#3821e39bc2e74ea7046673285d8ef2b4b021d939"
+  integrity sha512-eQ4uEGrGStiQuGzeawKFfvOi039wLthZi1FVZ0pzWnCuRMaW98S+0bdHz+r8zY7FsBmboN+BZ0pe1gHunS+2OA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -5265,10 +5265,10 @@ gatsby-telemetry@^1.6.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby@^2.26.1:
-  version "2.28.0"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.28.0.tgz#ed2d3b1d1f953ff59f641797560df555a41bf1b2"
-  integrity sha512-kWejVSxsuiT/yfghLHDOeaJg0eV5UdS5zc66ANPcSEJ+9U3DgPWoVM18aFsa+VsywGWxp2uqzOPdsItjdiOt+A==
+gatsby@^2.28.1:
+  version "2.28.1"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.28.1.tgz#64715ec775de123e0c863fe1b33410d2e11337a2"
+  integrity sha512-9+R4hICVl+EmKS16I3OHS0pCFfP9eV4d6Ee/t9kWvlgXQtgscMRuPxBQ02H4XMqUSPEdamN6Gf6ZN1RtcPZCnA==
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/core" "^7.12.3"

@@ -22,6 +22,7 @@
 
 @media only screen and (min-width: 1024px) {
   .aside {
+    position: fixed;
     padding-left: 80px;
     padding-top: 80px;
     padding-bottom: 80px;
