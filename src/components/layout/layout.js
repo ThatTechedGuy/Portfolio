@@ -8,13 +8,9 @@ import styles from "./layout.module.css";
 
 const Layout = ({ children }) => {
   const [splash, setSplash] = useState(true);
-  const [shouldShow, setShouldShow] = useState(false);
   const transitionClasses = splash
     ? `${styles.container} ${styles.hide}`
     : styles.container;
-  const loaderTransitionClasses = shouldShow
-    ? styles.loader
-    : `${styles.loader} ${styles.hide}`;
 
   const changeCounter = useCallback(() => {
     let count = 0;
@@ -33,18 +29,13 @@ const Layout = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    const listener = window.addEventListener("load", () => {
-      setShouldShow(true);
-      changeCounter();
-    });
-
-    return () => window.removeEventListener("load", listener);
+    changeCounter();
   }, [changeCounter]);
 
   return (
     <>
       {splash ? (
-        <div className={loaderTransitionClasses}>
+        <div className={styles.loader}>
           <p className={styles.loaderName}>Vishal Gupta</p>
           <p>
             <span id="timer" className="serif">

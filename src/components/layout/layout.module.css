@@ -46,11 +46,6 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.loader.hide {
-  opacity: 0;
-  pointer-events: none;
-  transition: all 2s ease-in-out;
-}
 
 .loader-name {
   font-size: clamp(14px, calc(0.875rem + ((1vw - 3.75px) * 0.3756)), 18px);

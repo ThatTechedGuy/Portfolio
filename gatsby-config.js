@@ -7,12 +7,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-brotli",
-      options: {
-        extensions: ["css", "html", "js", "svg"],
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Vishal Gupta`,

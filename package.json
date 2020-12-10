@@ -21,7 +21,6 @@
     "fontsource-inter": "^3.1.5",
     "fontsource-libre-baskerville": "^3.1.5",
     "gatsby": "^2.28.2",
-    "gatsby-plugin-brotli": "^2.0.0",
     "gatsby-plugin-manifest": "^2.8.0",
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-postcss": "^3.3.0",
