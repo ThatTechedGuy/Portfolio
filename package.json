@@ -15,9 +15,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
     "fontsource-inter": "^3.1.5",
     "fontsource-libre-baskerville": "^3.1.5",
-    "gatsby": "^2.28.1",
+    "gatsby": "^2.28.2",
     "gatsby-plugin-manifest": "^2.8.0",
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-postcss": "^3.3.0",
@@ -27,11 +30,11 @@
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^4.1.0"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.18",
     "postcss-deadcss": "^1.0.0",
     "postcss-preset-env": "^6.7.0",
     "postcss-pxtorem": "^5.1.1",
@@ -44,5 +47,4 @@
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
-  
 }

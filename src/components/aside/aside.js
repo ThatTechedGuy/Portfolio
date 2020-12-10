@@ -1,12 +1,12 @@
 import React, { memo } from "react";
 import { Link } from "gatsby";
 import styles from "./aside.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  FaLinkedinIn,
-  FaGithubAlt,
-  FaTwitter,
-  FaEnvelope,
-} from "react-icons/fa";
+  faLinkedinIn,
+  faGithubAlt,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Aside = () => {
   return (
@@ -21,10 +21,9 @@ const Aside = () => {
         </nav>
       </section>
       <section className={styles.column}>
-        <FaLinkedinIn className={styles.img} />
-        <FaGithubAlt className={styles.img} />
-        <FaEnvelope className={styles.img} />
-        <FaTwitter className={styles.img} />
+        <FontAwesomeIcon icon={faGithubAlt} className={styles.img} />
+        <FontAwesomeIcon icon={faLinkedinIn} className={styles.img} />
+        <FontAwesomeIcon icon={faTwitter} className={styles.img} />
       </section>
     </aside>
   );
