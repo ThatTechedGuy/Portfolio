@@ -16,7 +16,7 @@ const Footer = () => {
         Made with love using <span className="serif">Gatsby.</span>
       </Title>
       <Title>
-        <span className="serif">Copyright 2020. All Rights Reserved.</span>
+        <span className="serif">Copyright {new Date().getFullYear()}. All Rights Reserved.</span>
         <br />
         DESIGNED AND DEVELOPED BY <span className="serif">Vishal Gupta.</span>
       </Title>
