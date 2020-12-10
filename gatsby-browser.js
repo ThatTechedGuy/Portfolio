@@ -1,8 +1,8 @@
-import "fontsource-inter/400-normal.css";
-import "fontsource-libre-baskerville/400-italic.css";
+import "fontsource-inter/latin-400.css";
+import "fontsource-libre-baskerville/latin-400-italic.css";
 
 import React from "react";
-import Layout from "./src/components/layout/layout";
+import Layout from "@components/layout/layout";
 
 export function wrapPageElement({ element, props }) {
   return (
