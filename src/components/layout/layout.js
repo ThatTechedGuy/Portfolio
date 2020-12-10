@@ -57,14 +57,22 @@ const Layout = ({ children }) => {
         </div>
       ) : null}
       <div className={transitionClasses}>
-        <Aside />
-        <main className={styles.content}>
-          <section>{children}</section>
-          <Footer />
-        </main>
+        <Content children={children} />
       </div>
     </>
   );
 };
+
+const Content = memo(({ children }) => {
+  return (
+    <>
+      <Aside />
+      <main className={styles.content}>
+        <section>{children}</section>
+        <Footer />
+      </main>
+    </>
+  );
+});
 
 export default memo(Layout);
