@@ -7,6 +7,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-gatsby-cloud`,
+      options: {
+        allPageHeaders: [
+          "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
+        ],
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Vishal Gupta`,
