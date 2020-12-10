@@ -19,14 +19,13 @@ const Layout = ({ children }) => {
 
   const changeCounter = useCallback(() => {
     let count = 0;
-    const id = setInterval(async () => {
+    const id = setInterval(() => {
       const ele = document.getElementById("timer");
       count += 1;
       if (ele) {
         if (count > 100) {
           clearInterval(id);
-          await sleep(500);
-          setSplash(false);
+          setTimeout(() => setSplash(false), 1000);
         } else {
           ele.innerHTML = count;
         }
