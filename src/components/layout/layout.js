@@ -5,7 +5,6 @@ import Aside from "../aside/aside.js";
 import Footer from "../footer/footer.js";
 
 import styles from "./layout.module.css";
-import { sleep } from "./../../util/util";
 
 const Layout = ({ children }) => {
   const [splash, setSplash] = useState(true);
