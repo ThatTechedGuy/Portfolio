@@ -30,7 +30,6 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-optimize-svgs",
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
@@ -46,7 +45,6 @@ module.exports = {
             rootValue: 16, // Root font-size
             unitPrecision: 3, // Round rem units to 4 digits
           }),
-          require("postcss-deadcss")({ hash: true }),
           require("cssnano")(), // Minify
         ],
       },
