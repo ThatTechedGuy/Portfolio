@@ -21,7 +21,6 @@
     "gatsby-alias-imports": "^1.0.6",
     "gatsby-plugin-gatsby-cloud": "^0.0.4",
     "gatsby-plugin-manifest": "^2.8.0",
-    "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-postcss": "^3.3.0",
     "gatsby-plugin-preact": "^4.3.0",
     "postcss": "^8.2.1",

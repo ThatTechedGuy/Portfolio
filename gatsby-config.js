@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    `gatsby-plugin-optimize-svgs`,
     {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
