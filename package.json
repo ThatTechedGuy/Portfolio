@@ -15,17 +15,15 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/react-fontawesome": "^0.1.13",
     "fontsource-inter": "^3.1.5",
     "fontsource-libre-baskerville": "^3.1.5",
     "gatsby": "^2.28.2",
+    "gatsby-alias-imports": "^1.0.6",
     "gatsby-plugin-gatsby-cloud": "^0.0.4",
     "gatsby-plugin-manifest": "^2.8.0",
+    "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-postcss": "^3.3.0",
     "gatsby-plugin-preact": "^4.3.0",
-    "gatsby-plugin-purgecss": "^5.0.0",
     "postcss": "^8.2.1",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.12",
@@ -35,6 +33,11 @@
   "devDependencies": {
     "cssnano": "^4.1.10",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.18",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-hexrgba": "^2.0.1",
+    "postcss-import": "^13.0.0",
+    "postcss-mixins": "^7.0.2",
+    "postcss-nested": "^5.0.3",
     "postcss-preset-env": "^6.7.0",
     "postcss-pxtorem": "^5.1.1",
     "prettier": "2.2.1"

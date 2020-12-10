@@ -1,12 +1,10 @@
 import React, { memo } from "react";
 import { Link } from "gatsby";
 import styles from "./aside.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedinIn,
-  faGithubAlt,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import github from "@assets/github.svg";
+import linkedin from "@assets/linkedin.svg";
+import twitter from "@assets/twitter.svg";
+import mail from "@assets/gmail.svg";
 
 const Aside = () => {
   return (
@@ -21,9 +19,10 @@ const Aside = () => {
         </nav>
       </section>
       <section className={styles.column}>
-        <FontAwesomeIcon icon={faGithubAlt} className={styles.img} />
-        <FontAwesomeIcon icon={faLinkedinIn} className={styles.img} />
-        <FontAwesomeIcon icon={faTwitter} className={styles.img} />
+        <img src={github} alt="Github" className={styles.img} />
+        <img src={linkedin} alt="Linkedin" className={styles.img} />
+        <img src={twitter} alt="Twitter" className={styles.img} />
+        <img src={mail} alt="Gmail" className={styles.img} />
       </section>
     </aside>
   );
