@@ -3,6 +3,8 @@ import Title from "../title/title";
 import styles from "./footer.module.css";
 import Spacer from "@components/spacer/spacer";
 
+const year = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <>
@@ -18,9 +20,7 @@ const Footer = () => {
         Made with love using <span className="serif">Gatsby</span>.
       </Title>
       <Title>
-        <span className="serif">
-          Copyright {new Date().getFullYear()}. All Rights Reserved.
-        </span>
+        <span className="serif">Copyright {year}. All Rights Reserved.</span>
         <br />
         DESIGNED AND DEVELOPED BY <span className="serif">Vishal Gupta.</span>
       </Title>
