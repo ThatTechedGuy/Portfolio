@@ -5,6 +5,7 @@ import Aside from "../aside/aside.js";
 import Footer from "../footer/footer.js";
 
 import styles from "./layout.module.css";
+import Spacer from "@components/spacer/spacer";
 
 const Layout = ({ children }) => {
   const [splash, setSplash] = useState(true);
@@ -25,7 +26,7 @@ const Layout = ({ children }) => {
           ele.innerHTML = count;
         }
       }
-    }, 50);
+    }, 30);
   }, []);
 
   useEffect(() => {
@@ -47,10 +48,12 @@ const Layout = ({ children }) => {
       ) : null}
       <div className={transitionClasses}>
         <Aside />
+        <Spacer />
         <main className={styles.content}>
           <section>{children}</section>
           <Footer />
         </main>
+        <Spacer />
       </div>
     </>
   );

@@ -11,8 +11,6 @@
 }
 
 .content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
   padding-left: 20px;
   padding-right: clamp(56px, calc(3.5rem + ((1vw - 3.75px) * 30.9859)), 500px);
 
@@ -22,11 +20,9 @@
   justify-content: flex-start;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .content {
-    padding-top: 240px;
     padding-left: 180px;
-    padding-bottom: 48px;
   }
 }
 

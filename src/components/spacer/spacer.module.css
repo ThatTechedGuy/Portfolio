@@ -1,3 +1,7 @@
 .spacer {
-  height: 6rem;
+  height: clamp(
+    64px,
+    calc(6rem + (124 - 96) * ((100vw - 375px) / (1440 - 375))),
+    200px
+  );
 }

@@ -4,7 +4,7 @@ module.exports = {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
         devMode: true,
-        analyzerMode: "static",
+        analyzerPort: 5000,
       },
     },
     {

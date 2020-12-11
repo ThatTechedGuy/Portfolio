@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .aside {
     position: fixed;
     padding-left: 80px;
