@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: 24px;
+  font-size: clamp(14px, calc(0.875rem + ((1vw - 3.75px) * 0.3756)), 18px);
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 2rem;
+  }
+}

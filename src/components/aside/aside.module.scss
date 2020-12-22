@@ -1,0 +1,71 @@
+.aside {
+  position: fixed;
+  right: 0;
+
+  height: 100%;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .aside {
+    position: fixed;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    left: 0;
+    right: auto;
+  }
+
+  .link {
+    transform: rotate(180deg);
+  }
+}
+
+.ruler {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 1px;
+  align-self: center;
+  height: 120px;
+  background-color: var(--contrast);
+}
+
+.link {
+  writing-mode: vertical-lr;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 14px;
+}
+
+.link::before {
+  position: absolute;
+  content: "";
+  background-color: var(--text-high);
+  height: 0;
+  width: 1px;
+  transition: height 0.25s ease-in-out;
+}
+
+.link:hover::before {
+  height: 100%;
+}
+
+.img {
+  height: 20px;
+  width: 20px;
+  margin-top: 1.5rem;
+}

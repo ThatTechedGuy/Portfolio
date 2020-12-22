@@ -1,0 +1,22 @@
+.dimensions {
+  height: 20px;
+  width: 20px;
+  margin-top: 1.5rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .img {
+    @extend .dimensions;
+    margin-right: 1.5rem;
+  }
+}

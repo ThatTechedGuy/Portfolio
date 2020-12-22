@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Sohne';
+    src: url('subset-Sohne-Buch.woff2') format('woff2'),
+        url('subset-Sohne-Buch.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sohne';
+    src: url('subset-Sohne-Kraftig.woff2') format('woff2'),
+        url('subset-Sohne-Kraftig.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sohne';
+    src: url('subset-Sohne-Leicht.woff2') format('woff2'),
+        url('subset-Sohne-Leicht.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signifier';
+    src: url('subset-Signifier-Light.woff2') format('woff2'),
+        url('subset-Signifier-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signifier';
+    src: url('subset-Signifier-Medium.woff2') format('woff2'),
+        url('subset-Signifier-Medium.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

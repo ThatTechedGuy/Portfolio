@@ -1,0 +1,32 @@
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(100%);
+  }
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: var(--sans);
+}
+
+.progress {
+  background-color: var(--secondary-light);
+  width: 65vw;
+  max-width: 400px;
+  height: 1.5px;
+}
+
+.filler {
+  height: 100%;
+  transform-origin: top left;
+  background-color: var(--contrast);
+  animation: progress 2.5s ease-in-out;
+}

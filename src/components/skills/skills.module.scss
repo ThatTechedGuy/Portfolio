@@ -1,0 +1,10 @@
+.body {
+  color: var(--text-medium);
+  font-size: var(--font-size-body);
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.list {
+  font-size: clamp(12px, calc(0.75rem + ((1vw - 3.75px) * 0.1878)), 18px);
+}

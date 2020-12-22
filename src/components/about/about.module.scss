@@ -1,0 +1,11 @@
+.body {
+  color: var(--text-medium);
+  margin-bottom: 1rem;
+  font-size: var(--font-size-body);
+}
+
+@media only screen and (min-width: 768px) {
+  .body {
+    max-width: 40ch;
+  }
+}

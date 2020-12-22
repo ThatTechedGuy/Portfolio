@@ -1,0 +1,8 @@
+.heading {
+  font-size: clamp(32px, calc(2rem + ((1vw - 3.75px) * 3.0047)), 72px);
+  line-height: clamp(
+    2.4375rem,
+    calc(2.4375rem + ((1vw - 0.234375rem) * 3.5681)),
+    5rem
+  );
+}
