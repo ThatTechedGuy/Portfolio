@@ -312,7 +312,7 @@ a:focus {
   margin-bottom: var(--spacing-16);
 }
 
-.bio-section {
+.bio-section{
   display: flex;
   flex-direction: column;
 }
@@ -367,5 +367,5 @@ em {
 }
 
 .spacer {
-  height: clamp(96px, calc(6rem + ((1vw - 3.75px) * 2.6291)), 240px);
+  height: clamp(64px, calc(6rem + ((1vw - 3.75px) * 2.6291)), 240px);
 }
