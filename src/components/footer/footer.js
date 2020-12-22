@@ -11,7 +11,7 @@ const Footer = () => {
       siteMetadata: {
         author: { name },
         social: { mail },
-        employmentStatus
+        employmentStatus,
       },
     },
   } = useStaticQuery(graphql`
@@ -30,7 +30,7 @@ const Footer = () => {
     }
   `);
   return (
-    <div>
+    <footer className={styles.footer}>
       <div>
         <Title>{employmentStatus}</Title>
         <div className={styles.contact}>
@@ -40,8 +40,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="spacer" />
-      <div>
+      <div className={styles.section}>
         <Title>
           Made with love using <em>Gatsby</em>.
         </Title>
@@ -55,8 +54,7 @@ const Footer = () => {
           .
         </Title>
       </div>
-      <div className="spacer" />
-    </div>
+    </footer>
   );
 };
 

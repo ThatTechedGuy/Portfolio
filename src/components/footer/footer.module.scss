@@ -1,4 +1,22 @@
 .contact {
   font-size: clamp(24px, calc(1.5rem + ((1vw - 3.75px) * 1.1268)), 36px);
+  margin-bottom: 24px;
+  font-family: var(--sans);
 }
 
+.footer {
+  font-family: var(--sans);
+
+  em,
+  i {
+    font-family: var(--italic);
+    letter-spacing: -0.05em;
+    font-style: italic;
+    text-transform: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

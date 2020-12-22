@@ -312,6 +312,11 @@ a:focus {
   margin-bottom: var(--spacing-16);
 }
 
+.bio-section {
+  display: flex;
+  flex-direction: column;
+}
+
 .bio p {
   margin-bottom: var(--spacing-0);
 }
@@ -358,19 +363,6 @@ em {
   ul,
   ol {
     list-style-position: inside;
-  }
-}
-
-.index-title {
-  margin-bottom: 24px;
-  font-family: var(--serif);
-  font-size: var(--fontSize-2);
-  text-transform: uppercase;
-}
-
-@media only screen and (min-width: 768px) {
-  .index-title {
-    margin-bottom: 2rem;
   }
 }
 

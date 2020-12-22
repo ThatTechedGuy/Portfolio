@@ -29,11 +29,13 @@ const Bio = () => {
   return (
     <div className="bio">
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> &mdash;{" "}
-          {author?.summary || null}
+        <section className="bio-section">
+          <p>
+            Written by <strong>{author.name}</strong> &mdash;{" "}
+            {author?.summary || null}
+          </p>
           <Icons orientation="row" />
-        </p>
+        </section>
       )}
     </div>
   );
