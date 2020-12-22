@@ -312,6 +312,11 @@ a:focus {
   margin-bottom: var(--spacing-16);
 }
 
+.bio-section{
+  display: flex;
+  flex-direction: column;
+}
+
 .bio p {
   margin-bottom: var(--spacing-0);
 }
@@ -361,19 +366,6 @@ em {
   }
 }
 
-.index-title {
-  margin-bottom: 24px;
-  font-family: var(--serif);
-  font-size: var(--fontSize-2);
-  text-transform: uppercase;
-}
-
-@media only screen and (min-width: 768px) {
-  .index-title {
-    margin-bottom: 2rem;
-  }
-}
-
 .spacer {
-  height: clamp(96px, calc(6rem + ((1vw - 3.75px) * 2.6291)), 240px);
+  height: clamp(64px, calc(6rem + ((1vw - 3.75px) * 2.6291)), 240px);
 }

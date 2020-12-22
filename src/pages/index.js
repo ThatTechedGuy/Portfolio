@@ -10,25 +10,20 @@ import Footer from "@components/footer/footer";
 const IndexPage = () => {
   return (
     <Layout>
-      <section className={styles.container}>
-        <div className={styles.section}>
-          <div>
-            <Title>Introduction</Title>
-            <Hero />
-          </div>
-          <div>
-            <Title>About</Title>
-            <About />
-          </div>
-        </div>
-        <div className={styles.sectionBottom}>
-          <div>
-            <Title>Tech Stack</Title>
-            <Skills />
-          </div>
-          <Footer />
-        </div>
-      </section>
+      <div className="spacer" />
+      <Title>Introduction</Title>
+      <Hero />
+      <div className="spacer" />
+
+      <Title>About</Title>
+      <About />
+      <div className="spacer" />
+
+      <Title>Tech Stack</Title>
+      <Skills />
+      <div className="spacer" />
+      <Footer />
+      <div className="spacer" />
     </Layout>
   );
 };
