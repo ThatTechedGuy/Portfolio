@@ -1,9 +1,14 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
+  "description": "Portfolio website + Blog.",
+  "version": "1.0.0",
   "license": "0BSD",
+  "author": {
+    "name": "Vishal Gupta",
+    "email": "vvishalgupta5@gmail.com",
+    "url": "https://thattechedguy.gtsb.io/"
+  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
