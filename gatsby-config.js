@@ -25,13 +25,11 @@ module.exports = {
       },
       {
         title: "Backend",
-        list:
-          "Node, Express, mongoDb, graphQL, Apollo, SQLite, postgresSQL, Redis",
+        list: "Node, Express, mongoDb, graphQL, Apollo, SQLite, postgresSQL, Redis",
       },
       {
         title: "Industry",
-        list:
-          "JAMStack, Firebase, Data structures and Algorithms, Software Architecture",
+        list: "JAMStack, Firebase, Data structures and Algorithms, Software Architecture",
       },
     ],
   },
@@ -55,7 +53,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        implementation: require("sass"),
+        cssLoaderOptions: {
+          esModule: false,
+          modules: {
+            namedExport: false,
+          },
+        },
       },
     },
     // Markdown -> Gatsby
