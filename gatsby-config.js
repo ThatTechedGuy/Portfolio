@@ -38,7 +38,7 @@ module.exports = {
       },
       {
         title: "Industry",
-        list: "JAMStack, Event Driven Microservices Architecture, RESTFul APIs, Firebase, Data structures and Algorithms, Clean / Solid Software Architectures, CI/CD",
+        list: "Git, JAMStack, Event Driven Microservices Architecture, RESTful APIs, Firebase, Clean Architecture, SOLID principles, CI/CD",
       },
     ],
   },
@@ -110,6 +110,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-preact`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
