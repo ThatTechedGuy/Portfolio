@@ -6,8 +6,9 @@ const About = () => {
     <>
       <div className={styles.body}>
         Hi, I'm Vishal &mdash; a Product Engineer &amp; Software Developer. I
-        previously worked as a Mobile Engineer at one of India’s top FinTech
-        startups &ndash; <em>smallcase.</em>
+        previously worked as a Mobile Engineer at one of India’s
+        top FinTech startups &ndash; <em>smallcase,</em> on their mobile
+        application which has over 1M downloads on the Play Store. 
       </div>
       <div className={styles.body}>
         Currently a sophomore pursuing my{" "}
