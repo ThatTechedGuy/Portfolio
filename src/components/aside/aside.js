@@ -53,7 +53,7 @@ const Aside = () => {
         <a href={twitter} target="_blank" rel="noopener noreferrer">
           <img src={twitterImg} alt="Twitter" className={styles.img} />
         </a>
-        <a href={mail} target="_blank" rel="noopener noreferrer">
+        <a href={`mailto:${mail}`} target="_blank" rel="noopener noreferrer">
           <img src={mailImg} alt="Gmail" className={styles.img} />
         </a>
       </section>
