@@ -4,6 +4,7 @@ module.exports = {
     author: {
       name: `Vishal Gupta`,
       summary: `Product Engineer and Software Developer based in Kolkata, India.`,
+      designation: "Software Engineer",
     },
     description: `Product Engineer and Software Developer based in Kolkata, India. This is my personal internet space.`,
     siteUrl: `https://thattechedguy.gtsb.io/`,
@@ -17,7 +18,11 @@ module.exports = {
     skills: [
       {
         title: "Languages",
-        list: "Javascript / TypeScript, JAVA, Dart, Python",
+        list: "Javascript, TypeScript, JAVA, Kotlin",
+      },
+      {
+        title: "UI/UX",
+        list: "Figma, Zeplin, Adobe XD",
       },
       {
         title: "Frontend",
@@ -25,11 +30,15 @@ module.exports = {
       },
       {
         title: "Backend",
-        list: "Node, Express, mongoDb, graphQL, Apollo, SQLite, postgresSQL, Redis",
+        list: "Node, Express, mongoDb, graphQL, Apollo, SQLite, postgreSQL, Redis, TypeORM",
+      },
+      {
+        title: "Infra",
+        list: "Docker, Kubernetes, Nats Streaming Server, Linux",
       },
       {
         title: "Industry",
-        list: "JAMStack, Firebase, Data structures and Algorithms, Software Architecture",
+        list: "JAMStack, Event Driven Microservices Architecture, RESTFul APIs, Firebase, Data structures and Algorithms, Clean / Solid Software Architectures, CI/CD",
       },
     ],
   },

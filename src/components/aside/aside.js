@@ -1,28 +1,61 @@
 import React, { memo } from "react";
-import { Link } from "gatsby";
+import { Link, useStaticQuery, graphql } from "gatsby";
 import styles from "./aside.module.scss";
-import github from "@images/github.svg";
-import linkedin from "@images/linkedin.svg";
-import twitter from "@images/twitter.svg";
-import mail from "@images/gmail.svg";
+import githubImg from "@images/github.svg";
+import linkedinImg from "@images/linkedin.svg";
+import twitterImg from "@images/twitter.svg";
+import mailImg from "@images/gmail.svg";
 
 const Aside = () => {
+  const {
+    site: {
+      siteMetadata: {
+        author: { name, designation },
+        social: { mail, twitter, linkedin, github },
+        employmentStatus,
+      },
+    },
+  } = useStaticQuery(graphql`
+    query AsideQuery {
+      site {
+        siteMetadata {
+          author {
+            name
+          }
+          social {
+            mail
+            twitter
+            linkedin
+            github
+          }
+        }
+      }
+    }
+  `);
   return (
     <aside className={styles.aside}>
       <section className={styles.column}>
         <nav className={styles.link}>
-          <Link to="/">Vishal Gupta</Link>
+          <Link to="/">{name.toUpperCase()}</Link>
         </nav>
         <div className={styles.ruler} />
         <nav className={styles.link}>
-          <Link to="/blog">Blog</Link>
+          <Link to="/">HOME</Link>
         </nav>
       </section>
       <section className={styles.column}>
-        <img src={github} alt="Github" className={styles.img} />
-        <img src={linkedin} alt="Linkedin" className={styles.img} />
-        <img src={twitter} alt="Twitter" className={styles.img} />
-        <img src={mail} alt="Gmail" className={styles.img} />
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          <img src={githubImg} alt="Github" className={styles.img} />
+        </a>
+        <a href={linkedin} target="_blank" rel="noopener noreferrer">
+          <img src={linkedinImg} alt="Linkedin" className={styles.img} />
+        </a>
+        <a href={twitter} target="_blank" rel="noopener noreferrer">
+          <img src={twitterImg} alt="Twitter" className={styles.img} />
+        </a>
+        <a href={mail} target="_blank" rel="noopener noreferrer">
+          <img src={mailImg} alt="Gmail" className={styles.img} />
+        </a>
       </section>
     </aside>
   );
