@@ -1,5 +1,5 @@
 // custom typefaces
-import "fontsource-libre-baskerville/latin-400-italic.css";
+import "@fontsource/libre-baskerville/latin-400-italic.css";
 
 // self hosted fonts
 import "@fonts/stylesheet.css";
